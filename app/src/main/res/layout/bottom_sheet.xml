@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_bg"
+    tools:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:id="@+id/developer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/dev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="0dp"
+
+            android:fontFamily="@font/poppins"
+            android:gravity="center"
+            android:text="👨🏻‍💻  About Developer"
+            android:textColor="#191919"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AKHIL KUMAR"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="25sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="📍 Hamirpur , Himachal Pradesh"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="⭐ GitHub - AkhilKumar2703"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="20sp"
+        ></TextView>
+
+
+
+</LinearLayout>
+
