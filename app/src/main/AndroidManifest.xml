@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/khana_icon"
         android:supportsRtl="true"
-        android:theme="@style/Theme.KhanaKhazanat"
+        android:theme="@style/Theme.KhanaKhazana"
         tools:targetApi="31">
         <activity
             android:name=".RecipeActivity"
